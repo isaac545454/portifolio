@@ -43,7 +43,7 @@ const Projetos = [
         name: "autenticação",
         tecnologias: "NodeJS, mongoDB, jwt e bcrypt",
         img: "https://tse2.mm.bing.net/th?id=OIP.RaLxV3JgtsV97WlJKXjlHQHaHa&pid=Api&P=0&w=156&h=156",
-        link: "https://github.com/isaac545454/APIREST"
+        link: "https://github.com/isaac545454/auth"
     }
 ]
 
