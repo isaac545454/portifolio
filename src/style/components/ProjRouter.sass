@@ -1,0 +1,56 @@
+@use '../variables'
+@use "../mobile"
+@use '../mixins'
+
+a 
+    text-decoration: none
+
+#title-projetos
+    width:  100%
+    margin-bottom:  3rem
+    padding: 3rem
+    font-size: 4rem
+    background: variables.$gradient
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+    @include mobile.mobile
+         font-size: 2rem
+         text-align: center
+
+    a
+        text-decoration: none
+
+#container-projetos 
+    max-width: 1000px
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-around
+
+                
+        
+    a
+        text-decoration: none
+
+    .card-projeto
+        max-width: 350px
+        max-height: 350px
+        
+        margin-bottom: 2rem 
+        background-color: variables.$bg-color
+        border-radius: variables.$container-border-radius
+        color: variables.$text-color
+         
+      
+        
+        h2, p
+           display: flex
+           justify-content: center
+           align-items: center  
+           padding-bottom: 1rem 
+            
+
+
+        img
+            width: 280px
+            height: 240px
+            padding: 1rem
